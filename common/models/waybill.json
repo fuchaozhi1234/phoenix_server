@@ -1,0 +1,61 @@
+{
+  "name": "waybill",
+  "plural": "waybill",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "reciver": {
+      "type": "string"
+    },
+    "r_phone": {
+      "type": "string",
+      "required": true
+    },
+    "r_address": {
+      "type": "string"
+    },
+    "r_country": {
+      "type": "string"
+    },
+    "sender": {
+      "type": "string"
+    },
+    "s_phone": {
+      "type": "number"
+    },
+    "s_address": {
+      "type": "string"
+    },
+    "s_country": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "weight": {
+      "type": "number"
+    },
+    "fee": {
+      "type": "number"
+    },
+    "insurance": {
+      "type": "number"
+    },
+    "tax": {
+      "type": "number"
+    },
+    "agnet_number": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
